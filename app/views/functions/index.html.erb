@@ -1,0 +1,13 @@
+<h1>Functions</h1>
+<br/>
+<section>
+	<%= form_tag( '/functions/index', method: 'get') do |f| %>
+		<%= number_field_tag :factorial, nil, placeholder: 'Factorial' %><br/>
+		<%= number_field_tag :number, nil, placeholder: 'Numero a traducir', max: '9999999999' %>
+		<%= submit_tag('Calcular') %>
+	<% end %>
+	<p>Resultado factorial: <%= @result_factorial %></p>
+</section>
+<section>
+	<p>Traducción número: <%= @number_to_translate %></p>
+</section>

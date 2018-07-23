@@ -1,0 +1,103 @@
+// Place all the styles related to the calendars controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+.row {
+  width: 100%;
+  padding: 2rem 2rem 2rem 2rem;
+}
+
+.row:before, 
+.row:after {
+    content:"";
+    display: table ;
+    clear:both;
+}
+[class*='column-'] {
+  float: left;
+  min-height: 1px; 
+  width: 16.66%; 
+}
+
+.column-1{
+  width: 8.33%; 
+}
+
+.column-2{
+  width: 16.66%; 
+}
+
+.column-3{
+  width: 25%; 
+}
+
+.column-4{
+  width: 33.33%; 
+}
+
+.column-5{
+  width: 41.66%;
+}
+
+.column-6{
+  width: 50%;
+}
+
+.column-7{
+  width: 58.33%;
+}
+
+.column-8{
+  width: 66.66%;
+}
+
+.column-9{
+  width: 74.99%;
+}
+
+.column-10{
+  width: 83.33%;
+}
+
+.column-11{
+  width: 91.63%;
+}
+
+.column-12{
+  width: 100%;
+}
+
+
+.description {
+  border-bottom: 1px solid grey;
+  text-align: center;
+}
+
+.hour{
+  padding-bottom: 6px;
+  padding-top: 6px;
+}
+
+.top {
+  border-top: 1px solid black;
+  border-right: 1px solid black;
+  border-left: 1px solid black;
+}
+
+.middle{
+  border-left: 1px solid black;
+  border-right: 1px solid black;
+}
+
+.bottom{
+  border-bottom: 1px solid black;
+  border-left: 1px solid black;
+  border-right: 1px solid black;
+}
+
+.empty-date{
+  padding-bottom: 31px;
+}
+
+.with-date{
+  padding-bottom: 30px;
+}

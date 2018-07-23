@@ -1,0 +1,2 @@
+class RedStudent < ApplicationRecord
+end
