@@ -7,6 +7,7 @@
     El código se encuentra ubicado en **app/services/numbers_to_words_service.rb**
 
 * Modelado de datos
+  * Modelo ![Modelado](https://i.imgur.com/hBhc4So.png)
   * Codigo SQL para la estrutura de la base de datos en **app/db/structure.sql**
   * Consulta SQL del promedio de los alumnos en cada curso se encuentra en **app/db/views/notes_by_students_v02.sql**
   * Consulta SQL de los alumnos con mas de un curso y promedio menor a 4.0 en **app/db/views/red_studens_v01.sql**
