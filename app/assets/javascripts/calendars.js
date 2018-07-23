@@ -21,7 +21,7 @@ var ajaxGet = function (url, callback) {
   return xhr;
 }
 
-ajaxGet('http://localhost:3000/dates.json', function (response) {
+ajaxGet('/dates.json', function (response) {
       response = JSON.parse(response);
       createHours(response);
     });
